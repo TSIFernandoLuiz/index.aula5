@@ -1,0 +1,494 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Análise do filme "Your Name"</title>
+	<style>
+
+		p{  	
+			text-align: justify;
+			font-family: times-new-roman;
+			font-size: 18px;
+			text-indent: 50px;
+			color: ghostwhite;	
+			text-shadow: 3px 3px 5px rgba(0, 0, 0, 1.0);				
+		}
+
+		h1{	
+			text-align: center;
+			color: #ffffff;	
+		}
+
+		h2{	
+			text-align: left;
+			color: #ffffff;
+		}
+
+		h3{
+			text-align: center;
+			color: #ffffff;
+		}
+
+		figure {
+			text-align: center;
+
+		}
+
+		figcaption{
+			text-align: center;
+			font-family: arial;
+			font-size: 25px;
+			color: #000000;
+		}
+            
+        .fig1 {
+        	text-align: center;
+            display: inline-block;
+            margin: 15px auto;
+
+        }
+		.fig1 {	
+        	position: relative;
+        	display: inline-block;
+        }
+      	.fig1 img{
+      		display: inline-block;
+      		border: 1px solid white;
+      		box-shadow: 1px 1px 2px white;
+      		width: 25%;
+      		height: 25%;
+			margin-left: auto;
+			margin-right: auto;
+			transition: box-shadow 0.5s;
+      		margin: 15px;
+
+      	}
+      	.fig1: hover img{
+      		box-shadow: 1px 1px 4px white;
+      	}
+      	.fig1 figcaption{
+      		opacity: 0;
+      		position: absolute;
+      		top: 5px;
+      		left: 50%;
+      		transform: translateX(-50%);
+      		background-color: rgba(0, 0, 0, 0.4);
+      		color:white;
+      		width:24%;
+      		height: 100%;
+      		padding: 10px;
+      		box-sizing: border-box;
+      		transition: opacity 2s;
+      	}
+      	.fig1: hover figcaption{
+      		opacity: 1;
+      		transition: opacity 2s;
+      	}
+      	.fig1 figcaption{	
+			opacity: 0;
+			position: absolute;
+			top: 22px;
+			background-color: rgba(0, 0, 0, 0.4);
+			color: white;
+			width: 25%;
+			height: 93%;
+			padding: 10px;
+			box-sizing: border-box;
+			transition: opacity 2s;
+		}
+		.fig1:hover figcaption{
+			opacity: 1;
+		}
+		.fig1{
+			position: relative;	
+		}
+		.fig1 img{	
+			border: 3px solid black;
+			box-shadow: 2px 2px 2px white;
+			width: 25%;
+			height: 25%;
+
+		}
+		.fig1 {
+        	text-align: center;
+            display: inline-block;
+            margin: 15px auto;
+
+        }
+		.fig1 {	
+        	position: relative;
+        	display: inline-block;
+        }
+
+      	.fig2 {
+        	text-align: center;
+            display: inline-block;
+            margin: 15px auto;
+
+        }
+		.fig2 {	
+        	position: relative;
+        	display: inline-block;
+        }
+      	.fig2 img{
+      		display: inline-block;
+      		border: 1px solid white;
+      		box-shadow: 1px 1px 2px white;
+      		width: 25%;
+      		height: 25%;
+			margin-left: auto;
+			margin-right: auto;
+			transition: box-shadow 0.5s;
+      		margin: 15px;
+
+      	}
+      	.fig2: hover img{
+      		box-shadow: 1px 1px 4px white;
+      	}
+      	.fig2 figcaption{
+      		opacity: 0;
+      		position: absolute;
+      		top: 0px;
+      		left: 50%;
+      		transform: translateX(-50%);
+      		background-color: rgba(0, 0, 0, 0.4);
+      		color:white;
+      		width:25%;
+      		height: 95%;
+      		padding: 10px;
+      		box-sizing: border-box;
+      		transition: opacity 2s;
+      	}
+      	.fig2: hover figcaption{
+      		opacity: 1;
+      		transition: opacity 2s;
+      	}
+      	.fig2 figcaption{	
+			opacity: 0;
+			position: absolute;
+			top: 404px;
+			background-color: rgba(0, 0, 0, 0.4);
+			color: white;
+			width: 25%;
+			height: 30%;
+			padding: 10px;
+			box-sizing: border-box;
+			transition: opacity 2s;
+		}
+		.fig2:hover figcaption{
+			opacity: 1;
+		}
+		.fig2{
+			position: relative;	
+		}
+		.fig2 img{	
+			border: 3px solid black;
+			box-shadow: 2px 2px 2px white;
+			width: 25%;
+			height: 25%;
+
+		}
+		.fig2 {
+        	text-align: center;
+            display: inline-block;
+            margin: 15px auto;
+
+        }
+		.fig2 {	
+        	position: relative;
+        	display: inline-block;
+        }
+		.fig3 {
+        	text-align: center;
+            display: inline-block;
+            margin: 15px auto;
+
+        }
+		.fig3 {	
+        	position: relative;
+        	display: inline-block;
+        }
+      	.fig3 img{
+      		display: inline-block;
+      		border: 1px solid white;
+      		box-shadow: 1px 1px 2px white;
+      		width: 25%;
+      		height: 25%;
+			margin-left: auto;
+			margin-right: auto;
+			transition: box-shadow 0.5s;
+      		margin: 15px;
+
+      	}
+      	.fig3: hover img{
+      		box-shadow: 1px 1px 4px white;
+      	}
+      	.fig3 figcaption{
+      		opacity: 0;
+      		position: absolute;
+      		top: 0px;
+      		left: 50%;
+      		transform: translateX(-50%);
+      		background-color: rgba(0, 0, 0, 0.4);
+      		color:white;
+      		width:25%;
+      		height: 100%;
+      		padding: 10px;
+      		box-sizing: border-box;
+      		transition: opacity 2s;
+      	}
+      	.fig3: hover figcaption{
+      		opacity: 1;
+      		transition: opacity 2s;
+      	}
+      	.fig3 figcaption{	
+			opacity: 0;
+			position: absolute;
+			top: 15px;
+			background-color: rgba(0, 0, 0, 0.4);
+			color: white;
+			width: 25%;
+			height: 52%;
+			padding: 10px;
+			box-sizing: border-box;
+			transition: opacity 2s;
+		}
+		.fig3:hover figcaption{
+			opacity: 1;
+		}
+		.fig3{
+			position: relative;	
+		}
+		.fig3 img{	
+			border: 3px solid black;
+			box-shadow: 2px 2px 2px white;
+			width: 25%;
+			height: 25%;
+
+		}
+		.fig3 {
+        	text-align: center;
+            display: inline-block;
+            margin: 15px auto;
+
+        }
+		.fig3 {	
+        	position: relative;
+        	display: inline-block;
+        }
+
+        .fig4 {
+        	text-align: center;
+            display: inline-block;
+            margin: 10px auto;
+
+        }
+		.fig4 {	
+        	position: relative;
+        	display: inline-block;
+        }
+      	.fig4 img{
+      		display: inline-block;
+      		border: 3px solid black;
+      		box-shadow: 1px 1px 2px white;
+      		width: 20%;
+      		height: 20%;
+			margin-left: auto;
+			margin-right: auto;
+			transition: box-shadow 0.5s;
+      		margin: 10px;
+      	}
+
+		body {
+			line-height: 1.5;
+		}
+
+</style>
+</head>
+
+<body background="fundo1.avif">
+
+	<h1><b>Análise do filme "Your Name" - "Kimi no Na wa"</b></h1>
+
+	<h3>&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;<h3>
+
+	<figure class="fig1">																			
+		<div class="fig1">  
+						<img src="metade1.jpg" class="fig1">
+						<img src="kiminonawa.jpg" class="fig1"> 
+						<img src="metade2.jpg" class="fig1"> 
+		<figcaption>Kimi no Na wa</figcaption> </div>
+
+	</figure> &shy;
+
+<p><i>"Your Name"</i> é &nbsp;&nbsp;&nbsp; uma história envolvente que se desenrola em torno de dois adolescentes japoneses, Mitsuha e Taki. Mitsuha vive em uma pequena &nbsp;&nbsp;&nbsp; cidade rural, enquanto Taki mora em Tóquio. Inexplicavelmente, eles começam a <em>trocar de corpos periodicamente</em>, vivendo a vida um do outro por um período de tempo antes de retornarem &nbsp;&nbsp;&nbsp; às suas vidas normais.<br><br>
+
+&para;Inicialmente confusos e surpresos com essa experiência, Mitsuha e Taki começam a deixar mensagens um para o outro, registrando suas experiências e tentando ajudar um ao outro a navegar pelas complexidades de suas vidas. Ao longo do tempo, eles desenvolvem uma conexão profunda, apesar de nunca se encontrarem pes&shy;soalmente.<br><br>
+
+&para;Conforme a história avança, eles descobrem que suas trocas de corpo estão ligadas a eventos misteriosos envolvendo um cometa que passa pela Terra. Com o tempo, eles percebem que suas vidas estão entrelaçadas de maneiras mais profundas do que jamais imaginaram.<br><br>
+
+&para;O filme aborda temas como amor, destino, memória e identidade, enquanto Mitsuha e Taki lutam para entender a natureza de suas experiências e encontrar uma maneira de se reconectar. O clímax do filme traz uma reviravolta emocionante que desafia as fronteiras do tempo e espaço, enquanto os personagens lutam para se reunir e enfrentar os desafios que se apresentam.<br><br>
+
+&para;"Your Name." é uma jornada emocionante e visualmente deslumbrante, que cativa o público com sua história única e personagens carismáticos, deixando uma impressão duradoura sobre aqueles que o assistem.</p>
+
+	<h2>Interesses intrigantes sobre o filme</h2>
+
+
+	<p>O filme "Your Name." possui diversos elementos interes&shy;santes e intrigantes que cativam o público, gerando as emoções mais intensas e ar&shy;repiantes. Entre elas: <br><br>
+
+&bull; Troca de Corpos: O conceito central da troca de corpos entre os protagonistas, Mitsuha e Taki, é fascinante e único. A maneira como eles lidam com essa situação incomum, aprendendo a viver na pele um do outro, enquanto tentam manter suas próprias identidades, é tanto divertida quanto reflexiva. &diams; <br><br>
+
+&bull; Mistério e Revelações: O enredo envolve vários mistérios e reviravoltas, especialmente em relação à natureza da troca de corpos e às razões por trás dela. À medida que a história avança, o filme revela gradualmente segredos intrigantes que mantêm o espectador envolvido e ansioso por mais informações. &diams; <br><br>
+
+&bull; Conexões Além do Tempo e Espaço: Uma das partes mais fas&shy;cinantes do filme é como ele explora a ideia de conexões emocionais que transcendem as fronteiras do tempo e espaço. Mitsuha e Taki estão ligados de maneiras surpre&shy;endentes, mostrando que o destino pode unir pessoas de maneiras inesperadas e profundas. &diams; <br><br>
+
+&bull; Visual Deslumbrante: A animação de "Your Name." é absolutamente deslumbrante. Os cenários são ricamente detalhados, os efeitos visuais são impres&shy;sionantes e a direção de arte é incrivelmente bela. Cada cena é um espetáculo visual que contribui para a imersão na história. &diams; <br><br>
+
+&bull; Trilha Sonora Cativante: A música desempenha um papel significativo no filme, contribuindo para sua atmosfera e emocionando o público em momentos-chave da nar&shy;rativa. A trilha sonora original é emocionante e complementa perfeitamente as cenas, aumentando o impacto emocional da história. &diams; <br>
+
+	<p>Esses elementos combinados tornam "Your Name." uma experiência cinematográfica verdadeiramente cativante e memorável, que continua a intrigar e encantar espectadores em todo o mundo.</p>
+
+	<h2>Contexto histórico e referências no filme</h2>
+
+	<p>O contexto histórico real por trás do roteiro e enredo de "Your Name." não é explicitamente abordado no filme, já que a nar&shy;rativa se concentra principalmente nos aspectos fantásticos da troca de corpos e nas relações pessoais entre os personagens. No entanto, é possível identificar alguns elementos culturais e históricos que podem ter influenciado o filme: <br><br>
+
+&bull;Ter&shy;remoto e tsunami de 2011 no Japão: Embora não seja diretamente mencionado no filme, o ter&shy;remoto e tsunami que atingiram o Japão em 2011 tiveram um impacto significativo na sociedade japonesa e podem ter influenciado sutilmente a atmosfera do filme. A devastação causada por esse desastre natural trouxe à tona temas de superação, reconstrução e conexão comunitária, que podem ressoar de alguma forma na história de "Your Name." <br><br>
+
+&bull;Contrastes entre vida rural e urbana: O contraste entre a vida na cidade e no campo é um tema recor&shy;rente em muitas obras japonesas, incluindo anime e cinema. Em "Your Name.", essa diferença é destacada pela troca de corpos entre Mitsuha, que vive em uma cidade rural, e Taki, que reside em Tóquio. Essa dicotomia reflete a realidade da vida no Japão, onde existe uma clara divisão entre o estilo de vida urbano e rural. <br><br>
+
+&bull;Simbolismo cultural: O filme também incorpora elementos de simbolismo cultural japonês, como o cometa Tiamat, que desempenha um papel importante na trama. Os cometas têm significados simbólicos na mitologia japonesa e são frequentemente as&shy;sociados a eventos transcendentais ou transformadores. <br><br>
+
+Embora "Your Name." seja principalmente uma obra de fic&shy;ção e fantasia, sua ambientação e alguns temas podem ser influenciados pelo contexto histórico e cultural do Japão contemporâneo. No entanto, é importante notar que o filme não se propõe a ser uma representação precisa de eventos históricos, mas sim a criar uma história emocionante e envolvente que ressoa com o público. </p>
+
+
+	<h2>A relação entre o cometa que atinge a cidade e o enredo do filme</h2>
+
+	<p>No filme "Your Name.", o cometa que desempenha um papel significativo na história é chamado de Tiamat. O cometa Tiamat é um evento central que ocorre na cidade fictícia de Itomori, onde a personagem Mitsuha vive. Leia agora um resumo sobre a história no filme: <br><br>
+
+&bull;Itomori, a cidade rural onde Mitsuha reside, é marcada por uma tragédia que ocorreu há três anos antes do início da história do filme. Nessa tragédia, um fragmento do cometa Tiamat atingiu a cidade, resultando em uma devastação significativa, incluindo muitas mortes e destruição generalizada. <br><br>
+
+&bull;Essa tragédia é um evento importante que afeta não apenas o enredo do filme, mas também os personagens principais. Mitsuha, que vive em Itomori, sente a carga emocional dessa tragédia em sua vida cotidiana. A memória da tragédia e a maneira como ela afetou a cidade e suas pessoas são elementos importantes que moldam a jornada dos personagens.</p>
+
+<figure class="fig2">																			
+		<div class="fig2">  
+						<img src="ocometa1.jpg" class="fig2">
+						<img src="ocometa.jpg" class="fig2"> 
+						<img src="ocometa2.jpg" class="fig2"> 
+		<figcaption>A queda do cometa</figcaption> </div>
+
+	</figure>
+
+<h2>A metáfora do fio vermelho</h2>
+
+<p> No filme "Your Name.", o fio vermelho é uma metáfora que simboliza a ligação emocional entre os personagens principais, Mitsuha e Taki. Embora não seja um elemento literal da história, o conceito do fio vermelho está presente como uma representação poética do destino e do amor que une os dois protagonistas. <br><br>
+
+&raquo;A ideia do fio vermelho está enraizada na cultura asiática, especialmente na China e no Japão, onde é frequentemente considerada uma metáfora para os laços pré-determinados entre as almas gêmeas. Acredita-se que duas pessoas destinadas a estar juntas são conectadas por um fio vermelho invisível, que pode esticar ou encurtar, mas nunca se quebrar.<br><br>
+
+&raquo;Em "Your Name.", essa metáfora é explorada através da conexão misteriosa e inexplicável entre Mitsuha e Taki. Apesar de estarem separados por distância e circunstância, os dois personagens sentem uma ligação profunda e inexplicável um pelo outro, que transcende o tempo e o espaço. Essa ligação é simbolizada pelo fio vermelho invisível que une suas almas, guiando-os em direção um ao outro, mesmo quando estão separados.<br><br>
+
+&raquo;Ao longo do filme, o fio vermelho serve como um lembrete constante da ligação especial entre Mitsuha e Taki, enquanto eles lutam para entender e reconciliar suas experiências compartilhadas. Ele representa a força do destino e do amor verdadeiro que os une, apesar dos desafios e obstáculos que enfrentam ao longo da história.</p>
+
+<figure class="fig4">	
+		<div class="fig4">																		
+				<img src="fio3.jpg"> <br>
+				<img src="fio1.jpg">
+				<img src="fio2.jpg">
+			</div>
+</figure>
+
+<h2>Opinião crítica sobre o filme</h2>
+
+<p>O filme "Your Name." recebeu uma recepção extremamente positiva da crítica e do público em geral. Aqui estão algumas das principais críticas positivas que o filme recebeu:
+
+&raquo;Narrativa Cativante: A história envolvente e original do filme, que combina elementos de fantasia, romance e drama, foi amplamente elogiada. A maneira como a nar&shy;rativa explora temas como amor, destino e identidade ressoou com muitos espectadores, que se sentiram emocionalmente investidos na jornada dos personagens.<br><br>
+
+&raquo;Animação Deslumbrante: A qualidade visual e a animação impres&shy;sionante de "Your Name." foram destacadas como alguns dos pontos mais fortes do filme. Os cenários detalhados, os efeitos visuais impres&shy;sionantes e os designs de personagens cativantes contribuíram para uma experiência cinematográfica visualmente deslumbrante.<br><br>
+
+&raquo;Trilha Sonora Memorável: A trilha sonora original do filme, composta por Radwimps, recebeu elogios por sua emotividade e capacidade de aprimorar a atmosfera e as emoções das cenas. As músicas do filme, incluindo "Nandemonaiya" e "Zenzenzense", tornaram-se queridas pelos fãs e contribuíram significativamente para a identidade do filme.<br><br>
+
+&raquo;Mensagens Temáticas Profundas: Além de sua história envolvente, "Your Name." também foi elogiado por transmitir mensagens temáticas profundas sobre conexão humana, destino e a importância de apreciar o momento presente. O filme provocou reflexões sobre a natureza efêmera da vida e a importância de valorizar os relacionamentos interpes&shy;soais.<br><br>
+
+&raquo;Impacto Cultural e Global: "Your Name." foi amplamente aclamado não apenas no Japão, onde se tornou um dos filmes de anime de maior bilheteria de todos os tempos, mas também internacionalmente. O filme ajudou a aumentar a popularidade do anime e a atrair uma base de fãs global, consolidando seu lugar como uma obra-prima do cinema de animação.<br><br>
+
+No geral, a crítica sobre "Your Name." foi extremamente positiva, destacando sua narrativa envolvente, animação deslumbrante e mensagens temáticas profundas como os principais pontos fortes do filme.</p>
+
+<h2>Representação e referências da realidade na animação</h2>
+
+<p>o filme "Your Name." apresenta várias referências a cenários e locais reais no Japão. Embora a história seja em grande parte fictícia e se passe em cidades fictícias, como Itomori e Tóquio, o diretor Makoto Shinkai incorporou elementos de locais reais em sua animação para adicionar autenticidade e familiaridade à ambientação do filme. Veja algumas das referências a cenários reais:<br><br>
+
+&raquo;Tóquio: Muitas cenas do filme ocor&shy;rem na cidade de Tóquio, e algumas delas apresentam locais conhecidos da capital japonesa, como o bairro de Shinjuku, a estação de trem de Shibuya e o edifício Tokyo Metropolitan Government Building. Essas representações são fiéis à aparência e atmosfera dos locais reais.<br><br>
+
+&raquo;Lago Suwa: O lago que aparece no filme é baseado no Lago Suwa, localizado na prefeitura de Nagano, no centro do Japão. Este lago é conhecido por ser o cenário de muitas lendas e mitos japoneses, o que se alinha bem com o tema do destino e da conexão espiritual presente em "Your Name."<br><br>
+
+&raquo;Gifu Prefecture: Itomori, a cidade natal de Mitsuha, é modelada após várias cidades e vilarejos na região de Gifu, no Japão. Embora não seja uma representação direta de uma cidade específica, a arquitetura, paisagem e cultura de Itomori são inspiradas em lugares reais em Gifu.<br><br>
+
+&raquo;Observatório de Musubi: No filme, há uma cena importante que ocor&shy;re em um observatório. Embora não seja explicitamente identificado, o Observatório de Musubi é baseado no Observatório Hida, localizado na cidade de Takayama, em Gifu. Esta é uma das referências mais diretas a um local real no filme.<br><br>
+
+Essas são apenas algumas das referências a cenários reais no filme "Your Name.", que ajudam a criar uma sensação de autenticidade e familiaridade para o público japonês e para os espectadores familiarizados com esses locais.</p>
+
+<figure class="fig3">																			
+		<div class="fig3">  
+						<img src="cenareal.jpg" class="fig3">
+						<img src="cenareal2.jpg" class="fig3"> 
+						<img src="cenareal3.jpg" class="fig3"> 
+						<img src="cenareal4.jpg" class="fig3">
+						<img src="cenareal5.jpg" class="fig3"> 
+						<img src="cenareal6.jpg" class="fig3"> 
+		<figcaption>Comparações com o cenário real</figcaption> </div>
+	</figure>
+
+	<h2>O desfecho final de Kimi no Na wa</h2>
+
+	<p>O final do filme "Your Name." é emocionante e surpre&shy;endente, envolvendo uma série de reviravoltas na trama. Sem revelar grandes spoilers, aqui está um resumo do que acontece no final:
+
+&bull; Após uma jornada emocionante e cheia de obstáculos, os protagonistas Mitsuha e Taki finalmente conseguem entender a verdadeira natureza de sua conexão e a razão por trás de suas trocas de corpos. Eles percebem que suas vidas estão entrelaçadas de maneiras profundas e significativas, ligadas não apenas pelo destino, mas também por eventos pas&shy;sados. <br><br>
+
+&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts; <br><br>
+
+&bull;No clímax do filme, Mitsuha e Taki se reencontram em circunstâncias extraordinárias, enfrentando desafios que transcendem o tempo e o espaço. Suas ações têm o potencial de mudar o curso dos acontecimentos e salvar aqueles que amam.<br><br>
+
+&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;<br><br>
+
+&bull;O final é marcado por uma poderosa mensagem sobre amor, destino e a importância de viver plenamente o presente. Ele oferece uma conclusão satisfatória para a jornada dos personagens, ao mesmo tempo em que deixa espaço para reflexão e interpretação por parte do espectador.<br><br>
+
+&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;<br><br>
+
+Em suma, o final de "Your Name." é emocionante, poético e inesquecível, encapsulando perfeitamente os temas centrais do filme e deixando uma impres&shy;são duradoura em quem o as&shy;siste.</p>
+
+<figure class="fig4">
+	<div class="fig4">																			
+				<img src="img1.jpg"> 
+				<img src="img2.jpg">
+				<img src="img3.jpg"><br>
+				<img src="qualoseunome.jpg">
+			</div>
+</figure>
+
+	<h2>Considerações finais sobre Your Name</h2>
+
+	<p>Além dos aspectos que já foram mencionados, há mais alguns elementos importantes sobre o filme "Your Name." que vale a pena destacar:
+
+&raquo;Makoto Shinkai: O diretor e roteirista do filme, Makoto Shinkai, é conhecido por suas habilidades em criar histórias emocionantes e visualmente deslumbrantes. Antes de "Your Name.", Shinkai já havia ganhado reconhecimento por filmes como "5 Centimeters Per Second" e "The Garden of Words". "Your Name." elevou ainda mais sua reputação como um dos principais cineastas de anime da atualidade.<br><br>
+
+&raquo;Suces&shy;so Internacional: Embora "Your Name." tenha alcançado um sucesso mas&shy;sivo no Japão, tornando-se um dos filmes de anime de maior bilheteria de todos os tempos, o filme também teve um impacto significativo internacionalmente. Ele foi amplamente aclamado em festivais de cinema ao redor do mundo e conquistou uma base de fãs global, ajudando a popularizar ainda mais o gênero do anime fora do Japão.<br><br>
+
+&raquo;Influência Cultural: Além de seu suces&shy;so comercial, "Your Name." teve uma influência cultural duradoura. O filme inspirou uma série de produtos derivados, incluindo livros, mangás, trilhas sonoras, artigos de colecionador e até mesmo adaptações para teatro. Sua popularidade também impulsionou o turismo em locais reais que serviram de inspiração para os cenários do filme.<br><br>
+
+&raquo;Prêmios e Reconhecimento: "Your Name." recebeu inúmeros prêmios e indicações, tanto no Japão quanto internacionalmente. Ele ganhou vários prêmios da Academia Japonesa de Cinema, incluindo Melhor Animação do Ano, e também foi indicado ao prestigiado Prêmio da Academia de Cinema Japonesa na categoria de Melhor Filme. Além disso, o filme foi indicado ao Prêmio Annie nos Estados Unidos e ganhou o prêmio de Melhor Animação no Festival de Cinema de Sitges, na Espanha. <br><br>
+
+Esses são alguns dos aspectos importantes que contribuíram para o suces&shy;so e impacto cultural de "Your Name." É um filme que continua a ser apreciado e discutido por pessoas ao redor do mundo, mantendo sua relevância e apelo mesmo anos após o seu lançamento.</p>
+
+	<figure>
+			<img src="yourname.webp">
+	</figure>
+
+	<h3>Desenvolvido por Luiz Fern@ndo &copy;</h3>
+
+	<h3>&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;<h3>
+
+
+</body>
+</html>
+
